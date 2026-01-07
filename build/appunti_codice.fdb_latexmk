@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/appunti_codice"] 0 "build/appunti_codice.bcf" "build/appunti_codice.bbl" "build/appunti_codice" 1767802963.5179 0
+["biber build/appunti_codice"] 0 "build/appunti_codice.bcf" "build/appunti_codice.bbl" "build/appunti_codice" 1767805405.11578 0
   "bib.bib" 0 -1 0 ""
   "build/appunti_codice.bcf" 0 -1 0 "pdflatex"
   (generated)
   "build/appunti_codice.bbl"
   "build/appunti_codice.blg"
   (rewritten before read)
-["pdflatex"] 1767802958.82104 "c:/Users/carmine/Desktop/D.A. OF ALGORITHMS/appunti_codice/appunti_codice.tex" "build/appunti_codice.pdf" "appunti_codice" 1767802963.51909 0
+["pdflatex"] 1767805401.8592 "c:/Users/carmine/Desktop/D.A. OF ALGORITHMS/appunti_codice/appunti_codice.tex" "build/appunti_codice.pdf" "appunti_codice" 1767805405.11706 0
   "C:/Users/carmine/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1767798825 163260 f7138aa97b0a1dcae55100dabb7d9e7d ""
   "C:/Users/carmine/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1756131174 13258263 631b8f3fe96a8273a15b50538c9c7ec6 ""
   "C:/Users/carmine/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1736607166 2914 fdbc4a54b9bc76f4551b5303f2737d33 ""
@@ -157,15 +157,16 @@
   "C:/Users/carmine/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/carmine/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "C:/Users/carmine/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "appunti_codice.tex" 1767802526 6611 3d4bab07c6ee8c6e4ed7700c5ee99ae2 ""
-  "build/appunti_codice.aux" 1767802962 2204 d8cf30c11dd79ecd805bda70e275fc53 "pdflatex"
+  "appunti_codice.tex" 1767804276 6661 147fae1d00408f56e78be9b469b51977 ""
+  "build/appunti_codice.aux" 1767805404 2858 835cd0082b4025aa0ace5ab9cab475a9 "pdflatex"
   "build/appunti_codice.bbl" 0 -1 0 "biber build/appunti_codice"
-  "build/appunti_codice.out" 1767802962 202 b9d7fea356809e077db46d432e548c59 "pdflatex"
-  "build/appunti_codice.run.xml" 1767802962 2368 dd6dc9c33955da96943085700ff1920a "pdflatex"
-  "build/appunti_codice.toc" 1767802962 194 0caf44a0454f32ee9db650dae09571fb "pdflatex"
-  "c:/Users/carmine/Desktop/D.A. OF ALGORITHMS/appunti_codice/appunti_codice.tex" 1767802526 6611 3d4bab07c6ee8c6e4ed7700c5ee99ae2 ""
-  "capitoli/cap1_stack.tex" 1767802889 1617 44d097c643769d97c3c775da906257fa ""
-  "capitoli/cap2_queue.tex" 1767802957 3675 4370941f62a00457d9c9212602785cef ""
+  "build/appunti_codice.out" 1767805404 275 60ff9417cc88672bd7faa2b011700094 "pdflatex"
+  "build/appunti_codice.run.xml" 1767805404 2368 dd6dc9c33955da96943085700ff1920a "pdflatex"
+  "build/appunti_codice.toc" 1767805404 256 571516dc6eff0b08906d94ebaefbc3f8 "pdflatex"
+  "c:/Users/carmine/Desktop/D.A. OF ALGORITHMS/appunti_codice/appunti_codice.tex" 1767804276 6661 147fae1d00408f56e78be9b469b51977 ""
+  "capitoli/cap1_stack.tex" 1767804925 1607 d8acc904c6edc7e3cf9b2157babf1031 ""
+  "capitoli/cap2_queue.tex" 1767804963 3651 ff3d9fa6aa73e06e0a562e7357d5c721 ""
+  "capitoli/cap3_alberi.tex" 1767805401 5904 357acc29886d01ad479937283613d3a4 ""
   "immagini/logo_unisa.png" 1756131932 123576 faf390134e30a1e1d534559668669cff ""
   (generated)
   "build/appunti_codice.aux"

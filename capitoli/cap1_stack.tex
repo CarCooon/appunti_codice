@@ -27,7 +27,7 @@ class ArrayStack:
     self._data.append(e)    # il nuovo elemento è aggiunto in coda alla list
 
   def top(self):
-    """Restituisce (m anon rimuove) l'elemento al top dello stack.
+    """Restituisce (ma non rimuove) l'elemento al top dello stack.
        Raise Empty exception se lo stack è vuoto."""
     if self.is_empty():
       raise Empty('lo stack è vuoto')
@@ -49,5 +49,5 @@ class ArrayStack:
     if self.is_empty():
       raise Empty('lo stack è vuoto')
       # print("lo stack è vuoto")
-    return self._data.pop()               # rimuove l'ultimo elemento della list
+    return self._data.pop()     # rimuove l'ultimo elemento della list
 \end{lstlisting}

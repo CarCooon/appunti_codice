@@ -98,13 +98,13 @@ class ArrayQueue(Queue):
     self._data[avail] = e
     self._size += 1
 
-  def _resize(self, cap):           # we assume cap >= len(self)
+  def _resize(self, cap):       # we assume cap >= len(self)
     """Ridimensiona l'array portandolo a lunghezza cap."""
-    old = self._data                # conserva la vecchia copia dell'array
-    self._data = [None] * cap       # alloca una nuova list di dimensione cap
+    old = self._data            # conserva la vecchia copia dell'array
+    self._data = [None] * cap   # alloca una nuova list di dimensione cap
     j = self._front
     for k in range(self._size):
-      self._data[k] = old[j]        # shifta gli indici per riallinearli
-      j = (j + 1) % len(old)        # usa la vecchia dimensione come modulo
-    self._front = 0                 # front riallineato a 0
+      self._data[k] = old[j]    # shifta gli indici per riallinearli
+      j = (j + 1) % len(old)    # usa la vecchia dimensione come modulo
+    self._front = 0             # front riallineato a 0
 \end{lstlisting}

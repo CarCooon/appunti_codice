@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  7 JAN 2026 17:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  7 JAN 2026 18:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1020,7 +1020,7 @@ Package hyperref Info: Link coloring OFF on input line 134.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 20.74pt on input line 139.
-<immagini/logo_unisa.png, id=11, 351.3125pt x 351.3125pt>
+<immagini/logo_unisa.png, id=15, 351.3125pt x 351.3125pt>
 File: immagini/logo_unisa.png Graphic file (type png)
 <use immagini/logo_unisa.png>
 Package pdftex.def Info: immagini/logo_unisa.png  used on input line 142.
@@ -1180,29 +1180,51 @@ Capitolo 2.
 
 [7
 
+]
+
+[8
+
+] (capitoli/cap3_alberi.tex
+Capitolo 3.
+
+
+[9
+
+]
+
+[10
+
+]
+
+[11
+
+])
+
+[12
+
 ] (c:\Users\carmine\Desktop\D.A. OF ALGORITHMS\appunti_codice\build\appunti_codice.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `appunti_codice.out' has not changed.
-(rerunfilecheck)             Checksum: B9D7FEA356809E077DB46D432E548C59;202.
+(rerunfilecheck)             Checksum: 60FF9417CC88672BD7FAA2B011700094;275.
 Package logreq Info: Writing requests to 'appunti_codice.run.xml'.
 \openout1 = `appunti_codice.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30966 strings out of 468134
- 532355 string characters out of 5429772
- 1508344 words of memory out of 5000000
- 59033 multiletter control sequences out of 15000+600000
+ 31149 strings out of 468134
+ 535208 string characters out of 5429772
+ 1554538 words of memory out of 5000000
+ 59070 multiletter control sequences out of 15000+600000
  677676 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,11n,131p,1268b,1819s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/carmine/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xbtt.pfb><C:/Users/carmine/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/carmine/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/carmine/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/carmine/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
-Output written on "c:\Users\carmine\Desktop\D.A. OF ALGORITHMS\appunti_codice\build\appunti_codice.pdf" (7 pages, 235608 bytes).
+Output written on "c:\Users\carmine\Desktop\D.A. OF ALGORITHMS\appunti_codice\build\appunti_codice.pdf" (12 pages, 274132 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 136 named destinations out of 1000 (max. 500000)
- 28182 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 422 PDF objects out of 1000 (max. 8388607)
+ 279 named destinations out of 1000 (max. 500000)
+ 28190 words of extra memory for PDF output out of 29859 (max. 10000000)
 
