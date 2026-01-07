@@ -3,6 +3,9 @@
 
 \begin{lstlisting}[
     language=Python,
+    caption={Implementazione Python dell'ADT Stack utilizzando una lista per la memorizzazione degli elementi.},
+    captionpos=t,
+    label={lst:Stack},
 ]
 class Empty(Exception):
   pass
@@ -25,23 +28,21 @@ class ArrayStack:
   def push(self, e):
     """Aggiunge l'elemento e al top dello stack."""
     self._data.append(e)    # il nuovo elemento è aggiunto in coda alla list
+\end{lstlisting}
+
+\clearpage
+\begin{lstlisting}[
+    language=Python,
+    firstnumber=22
+]
 
   def top(self):
     """Restituisce (ma non rimuove) l'elemento al top dello stack.
        Raise Empty exception se lo stack è vuoto."""
     if self.is_empty():
       raise Empty('lo stack è vuoto')
+      # print("lo stack è vuoto")
     return self._data[-1]           # legge l'ultimo elemento della list
-\end{lstlisting}
-
-\clearpage
-\begin{lstlisting}[
-    language=Python,
-    caption={Implementazione Python dell'ADT Stack utilizzando una lista per la memorizzazione degli elementi.},
-    captionpos=b,
-    label={lst:Stack},
-    firstnumber=29
-]
 
   def pop(self):
     """Rimuove e restituisce l'elemento al top dello stack.

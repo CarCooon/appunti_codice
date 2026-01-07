@@ -4,7 +4,7 @@
 \begin{lstlisting}[
     language=Python,
     caption={Classe astratta che implementa l'ADT Queue.},
-    captionpos=b,
+    captionpos=t,
     label={lst:ADT_Queue},
 ]
 class Queue:
@@ -36,6 +36,9 @@ class Queue:
 \clearpage
 \begin{lstlisting}[
     language=Python,
+    caption={Implementazione Python dell'ADT Queue utilizzando una lista per la memorizzazione degli elementi.},
+    captionpos=t,
+    label={lst:ArrayQueue},
 ]
 from .queue import Queue
 
@@ -84,9 +87,6 @@ class ArrayQueue(Queue):
 \clearpage
 \begin{lstlisting}[
     language=Python,
-    caption={Implementazione Python dell'ADT Queue utilizzando una lista per la memorizzazione degli elementi.},
-    captionpos=b,
-    label={lst:ArrayQueue},
     firstnumber=43
 ]
 
