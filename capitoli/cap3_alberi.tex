@@ -36,7 +36,6 @@ class Tree:
       return not (self == other)        # opposite of __eq__
   
   #----------------------- end nested Position class -----------------------
-
 \end{lstlisting}
 
 \clearpage
@@ -125,8 +124,9 @@ class Tree:
 \clearpage
 \begin{lstlisting}[
     language=Python,
-    firstnumber=99
+    firstnumber=98
 ]
+
   def preorder(self):
     """Generate a preorder iteration of positions in the tree."""
     if not self.is_empty():
@@ -245,8 +245,9 @@ class BinaryTree(Tree):
 \clearpage
 \begin{lstlisting}[
     language=Python,
-    firstnumber=49
+    firstnumber=37
 ]
+
   def inorder(self):
     """Generate an inorder iteration of positions in the tree."""
     if not self.is_empty():
