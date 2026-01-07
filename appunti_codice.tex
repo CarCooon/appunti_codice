@@ -1,0 +1,190 @@
+% --- PREAMBOLO ---
+
+% Definisce il tipo di documento (articolo, report, book, letter, ecc.)
+% a4paper imposta la pagina in formato A4, 12pt la dimensione del font
+\documentclass[a4paper, 11pt]{book}
+
+% --- PACCHETTI MATEMATICI FONDAMENTALI ---
+% NOTA: amsmath deve essere caricato PRIMA di newtxmath per evitare conflitti
+\usepackage{amsmath}
+
+% --- Font Times New Roman e lingua---
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage[normalem]{ulem}
+
+\usepackage{newtxtext,newtxmath}
+\usepackage{microtype}
+
+% --- STILE DELL'INDICE ---
+\makeatletter
+% capitolo, livello 0: indentazione 0em, larghezza numero 1.5em
+\renewcommand*\l@chapter{\@dottedtocline{0}{0em}{1.5em}}
+% sezione, livello 1: indentazione 1.5em, larghezza numero 2.3em
+\renewcommand*\l@section{\@dottedtocline{1}{1.5em}{2.3em}}
+% sottosezione, livello 2: indentazione 3.8em, larghezza numero 3.2em
+\renewcommand*\l@subsection{\@dottedtocline{2}{3.8em}{3.2em}}
+\makeatother
+
+
+
+% rinomina "Indice" in "Sommario"
+\addto\captionsitalian{
+  \renewcommand{\contentsname}{Sommario}
+}
+
+
+
+% --- Impaginazione ---
+\usepackage[margin=3cm,bindingoffset=0.5cm]{geometry}
+\usepackage{setspace}
+\setstretch{1.2}
+\setlength{\parindent}{1cm}
+
+% --- Figure, tabelle ---
+\usepackage{graphicx}
+\usepackage{multirow}
+\graphicspath{{./}{./immagini/}} % cerca immagini anche in ./immagini
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{tabularx,booktabs}
+\usepackage{enumitem}
+
+
+% --- PACCHETTI NECESSARI ---
+\usepackage{xcolor}      % gestione dei colori
+\usepackage{listings}    % ambiente per codice
+
+% --- COLORI TEMA DRACULA ---
+\definecolor{dracula-bg}{HTML}{282A36}       % sfondo
+\definecolor{dracula-current}{HTML}{44475A}  % riga corrente / cornice
+\definecolor{dracula-fg}{HTML}{F8F8F2}       % testo base
+\definecolor{dracula-comment}{HTML}{6272A4}  % commenti
+\definecolor{dracula-cyan}{HTML}{8BE9FD}     % variabili / funzioni
+\definecolor{dracula-green}{HTML}{50FA7B}    % valori booleani
+\definecolor{dracula-orange}{HTML}{FFB86C}   % numeri
+\definecolor{dracula-pink}{HTML}{FF79C6}     % keyword
+\definecolor{dracula-purple}{HTML}{BD93F9}   % operatori opzionali
+\definecolor{dracula-red}{HTML}{FF5555}      % errori / alert
+\definecolor{dracula-yellow}{HTML}{F1FA8C}   % stringhe
+
+% --- DEFINIZIONE STILE LISTINGS DRACULA ---
+\lstdefinestyle{dracula}{
+    language=Python,                             % linguaggio
+    backgroundcolor=\color{dracula-bg},          % sfondo
+    basicstyle=\ttfamily\footnotesize\color{dracula-fg}, % testo base
+    keywordstyle=\color{dracula-pink}\bfseries,  % keyword
+    commentstyle=\color{dracula-comment}\itshape, % commenti in corsivo
+    stringstyle=\color{dracula-yellow},          % stringhe
+    identifierstyle=\color{dracula-cyan},       % nomi di variabili / funzioni
+    numbers=left,                                % numeri a sinistra
+    numberstyle=\tiny\color{black},     % stile dei numeri di riga
+    stepnumber=1,                                % numerazione ogni riga
+    numbersep=5pt,                               % distanza numeri dal codice
+    showstringspaces=false,                      % non mostra spazi nelle stringhe
+    frame=single,                                % cornice semplice
+    rulecolor=\color{dracula-current},          % colore della cornice
+    breaklines=true,                             % va a capo automaticamente
+    breakatwhitespace=true,                      % preferenza per andare a capo agli spazi
+    tabsize=4                                    % tab = 4 spazi
+}
+
+% --- USO DELLO STILE ---
+\lstset{style=dracula,
+literate={à}{{\`a}}1 {è}{{\`e}}1 {é}{{\'e}}1 {ì}{{\`i}}1 {ò}{{\`o}}1 {ù}{{\`u}}1}  % applica lo stile Dracula a tutti i blocchi \begin{lstlisting}
+
+
+
+
+% --- Bibliografia ---
+\usepackage[backend=biber,sorting=none,style=numeric]{biblatex}
+\addbibresource{bib.bib}
+\usepackage{csquotes}
+
+% --- Numerazione e intestazioni ---
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\usepackage[bottom]{footmisc}
+\setlength{\skip\footins}{8pt plus 2pt minus 1pt}
+
+% --- Link e riferimenti ---
+\usepackage[hidelinks]{hyperref}
+\usepackage{cleveref}
+
+% --- INFORMAZIONI SUL DOCUMENTO ---
+\title{Design and Analysis of Algorithms}
+\author{Carmine}
+\date{\today} % \today inserisce la data di compilazione. Puoi anche scrivere una data fissa, es. "Ottobre 2025"
+
+
+
+% --- CORPO DEL DOCUMENTO ---
+\begin{document}
+
+% ================= FRONTESPIZIO =================
+\begin{titlepage}
+    \begin{center}
+        \huge{\uppercase{Università degli Studi di Salerno}}\\[10mm]
+        \uppercase{\normalsize DIPARTIMENTO DI INGEGNERIA DELL'INFORMAZIONE ED ELETTRICA\\ E MATEMATICA APPLICATA}\\[15mm]
+        \normalsize{Corso: \\DESIGN AND ANALYSIS OF ALGORITHMS}\\[20mm]
+        \includegraphics[width=0.35\textwidth]{immagini/logo_unisa}\\[20mm]
+        \textbf{\large APPUNTI}\\[10mm]
+    \end{center}
+
+    \begin{center}
+        \Large{\textbf{Carmine Terracciano}}\\[2mm]
+        \large{Mat. IE22700109}\\[10mm]
+    \end{center}
+
+    \vfill
+    \begin{center}
+        \large \uppercase{Anno Accademico 2025/2026}
+    \end{center}
+\end{titlepage}
+
+% Crea un sommario/indice
+% =================================================================
+% --- SOMMARIO INIZIA A SINISTRA ---
+%
+% 1. Salva il comando \cleardoublepage originale in \oldcleardoublepage
+\let\oldcleardoublepage\cleardoublepage
+%
+% 2. Fai in modo che \cleardoublepage si comporti come \clearpage
+%    (che va solo alla pagina *successiva*, non alla pagina *destra successiva*)
+\let\cleardoublepage\clearpage
+
+% Ora \tableofcontents userà la nostra versione "modificata" di \cleardoublepage
+% e inizierà felicemente sulla pagina 2 (sinistra)
+\tableofcontents
+
+% 3. Ripristina il comando \cleardoublepage originale
+%    così tutti i capitoli successivi (\input{capitoli...})
+%    torneranno a iniziare sulla pagina destra, come da regola "book".
+\let\cleardoublepage\oldcleardoublepage
+%
+% --- FINE ---
+% =================================================================
+
+
+% --- INIZIO DEL CONTENUTO ---
+\cleardoublepage
+\input{capitoli/cap1_stack}
+
+\cleardoublepage
+\input{capitoli/cap2_queue}
+
+
+
+\end{document}
