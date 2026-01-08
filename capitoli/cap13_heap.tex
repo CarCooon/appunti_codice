@@ -61,14 +61,40 @@ class HeapPriorityQueue(PriorityQueueBase): # base class defines _Item
         self._swap(j, small_child)
         self._downheap(small_child)    # recur at position of small child
 
+  def _heapify(self):
+    """Bottom-up construction of a heap in O(n) time."""
+    # start at the parent of the last element
+    start = self._parent(len(self._data) - 1)
+    for j in range(start, -1, -1): # go backward from start to 0
+      self._downheap(j)
+
   #------------------------------ public behaviors ------------------------------
+  def __init__(self, contents=()):
+    """Create a new empty Priority Queue.
+    
+    If contents is provided, it should be an iterable of (k,v) tuples.
+    """
+    self._data = [self._Item(k, v) for k, v in contents]
+    if len(self._data) > 1:
+      self._heapify()
+
+  """ without Heapify
   def __init__(self):
-    """Create a new empty Priority Queue."""
+    Create a new empty Priority Queue.
     self._data = []
+  """
 
   def __len__(self):
     """Return the number of items in the priority queue."""
     return len(self._data)
+  
+  \end{lstlisting}  
+  
+  \clearpage
+  \begin{lstlisting}[
+    language=Python,
+    firstnumber=74
+  ]
 
   def add(self, key, value):
     """Add a key-value pair to the priority queue."""
@@ -84,14 +110,6 @@ class HeapPriorityQueue(PriorityQueueBase): # base class defines _Item
       raise Empty('Priority queue is empty.')
     item = self._data[0]
     return (item._key, item._value)
-  
-  \end{lstlisting}  
-
-  \clearpage
-  \begin{lstlisting}[
-    language=Python,
-    firstnumber=71
-  ]
 
   def remove_min(self):
     """Remove and return (k,v) tuple with minimum key.

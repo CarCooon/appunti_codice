@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.1.7)  8 JAN 2026 13:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.1.7)  8 JAN 2026 13:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -880,14 +880,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'italian'.
- (appunti_codice.aux
-
-LaTeX Warning: Label `lst:PriorityQueueBase' multiply defined.
-
-
-LaTeX Warning: Label `lst:PriorityQueueBase@cref' multiply defined.
-
-)
+ (appunti_codice.aux)
 \openout1 = `appunti_codice.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 134.
@@ -1425,10 +1418,6 @@ Capitolo 13.
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `appunti_codice.out' has not changed.
 (rerunfilecheck)             Checksum: 3F61D8E28B4F6515DB1CA769CF1E1EA9;1499.
 Package logreq Info: Writing requests to 'appunti_codice.run.xml'.
@@ -1436,17 +1425,17 @@ Package logreq Info: Writing requests to 'appunti_codice.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32852 strings out of 467875
- 564557 string characters out of 5415578
- 1601818 words of memory out of 5000000
- 59620 multiletter control sequences out of 15000+600000
+ 32872 strings out of 467875
+ 564872 string characters out of 5415578
+ 1601990 words of memory out of 5000000
+ 59622 multiletter control sequences out of 15000+600000
  678664 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,12n,131p,1273b,2313s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/txfonts/t1xbtt.pfb><C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/newtx/ztmr.pfb>
-Output written on appunti_codice.pdf (55 pages, 646629 bytes).
+Output written on appunti_codice.pdf (55 pages, 650636 bytes).
 PDF statistics:
- 2263 PDF objects out of 2487 (max. 8388607)
- 1663 named destinations out of 1728 (max. 500000)
+ 2284 PDF objects out of 2487 (max. 8388607)
+ 1681 named destinations out of 1728 (max. 500000)
  28270 words of extra memory for PDF output out of 29859 (max. 10000000)
 
