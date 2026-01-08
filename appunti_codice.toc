@@ -10,3 +10,4 @@
 \contentsline {chapter}{\numberline {8}Sorted Unsorted Table}{37}{chapter.8}%
 \contentsline {chapter}{\numberline {9}Chain Hash}{43}{chapter.9}%
 \contentsline {chapter}{\numberline {10}Probe Hash}{45}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Priority Queue}{47}{chapter.11}%
