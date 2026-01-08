@@ -12,3 +12,4 @@
 \contentsline {chapter}{\numberline {10}Probe Hash}{45}{chapter.10}%
 \contentsline {chapter}{\numberline {11}Priority Queue}{47}{chapter.11}%
 \contentsline {chapter}{\numberline {12}Sorted Unsorted Priority Queue}{49}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Heap Priority Queue}{53}{chapter.13}%
