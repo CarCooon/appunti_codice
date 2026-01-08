@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.1.7)  8 JAN 2026 16:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.1.7)  8 JAN 2026 16:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -880,14 +880,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'italian'.
- (appunti_codice.aux
-
-LaTeX Warning: Label `lst:AdaptableHeap' multiply defined.
-
-
-LaTeX Warning: Label `lst:AdaptableHeap@cref' multiply defined.
-
-)
+ (appunti_codice.aux)
 \openout1 = `appunti_codice.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 134.
@@ -1036,7 +1029,7 @@ Package hyperref Info: Link coloring OFF on input line 134.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 20.74pt on input line 139.
-<immagini/logo_unisa.png, id=63, 351.3125pt x 351.3125pt>
+<immagini/logo_unisa.png, id=71, 351.3125pt x 351.3125pt>
 File: immagini/logo_unisa.png Graphic file (type png)
 <use immagini/logo_unisa.png>
 Package pdftex.def Info: immagini/logo_unisa.png  used on input line 142.
@@ -1462,33 +1455,50 @@ Overfull \hbox (7.03908pt too wide) in paragraph at lines 72--74
 
 [63
 
+]
+
+[64
+
+] (capitoli/cap16_dfs.tex
+Capitolo 16.
+
+
+[65
+
+])
+
+[66
+
+] (capitoli/cap17_bfs.tex
+Capitolo 17.
+)
+
+[67
+
+
 ] (appunti_codice.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `appunti_codice.out' has not changed.
-(rerunfilecheck)             Checksum: 8EF64DC3314AAFA06D793A81A4C7DF00;1740.
+(rerunfilecheck)             Checksum: C517B9754EF1E1A940151320F9DCC569;1860.
 Package logreq Info: Writing requests to 'appunti_codice.run.xml'.
 \openout1 = `appunti_codice.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33196 strings out of 467875
- 570336 string characters out of 5415578
- 1602423 words of memory out of 5000000
- 59689 multiletter control sequences out of 15000+600000
- 678756 words of font info for 109 fonts, out of 8000000 for 9000
+ 33318 strings out of 467875
+ 572537 string characters out of 5415578
+ 1603174 words of memory out of 5000000
+ 59721 multiletter control sequences out of 15000+600000
+ 678848 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,12n,131p,1273b,2313s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/txfonts/t1xbtt.pfb><C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/newtx/ztmr.pfb>
-Output written on appunti_codice.pdf (63 pages, 718602 bytes).
+Output written on appunti_codice.pdf (67 pages, 744240 bytes).
 PDF statistics:
- 2615 PDF objects out of 2984 (max. 8388607)
- 1930 named destinations out of 2073 (max. 500000)
- 28286 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 2735 PDF objects out of 2984 (max. 8388607)
+ 2012 named destinations out of 2073 (max. 500000)
+ 28302 words of extra memory for PDF output out of 29859 (max. 10000000)
 
