@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.1.7)  8 JAN 2026 12:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.1.7)  8 JAN 2026 13:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -917,12 +917,6 @@ LaTeX Warning: Label `cap:bst' multiply defined.
 
 LaTeX Warning: Label `cap:bst@cref' multiply defined.
 
-
-LaTeX Warning: Label `lst:chain_hash_logic' multiply defined.
-
-
-LaTeX Warning: Label `lst:chain_hash_logic@cref' multiply defined.
-
 )
 \openout1 = `appunti_codice.aux'.
 
@@ -1430,15 +1424,15 @@ Package logreq Info: Writing requests to 'appunti_codice.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32524 strings out of 467875
- 558667 string characters out of 5415578
- 1600550 words of memory out of 5000000
- 59551 multiletter control sequences out of 15000+600000
+ 32526 strings out of 467875
+ 558700 string characters out of 5415578
+ 1600716 words of memory out of 5000000
+ 59553 multiletter control sequences out of 15000+600000
  678572 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,12n,131p,1273b,2313s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/txfonts/t1xbtt.pfb><C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/newtx/ztmr.pfb>
-Output written on appunti_codice.pdf (46 pages, 579323 bytes).
+Output written on appunti_codice.pdf (46 pages, 579337 bytes).
 PDF statistics:
  1924 PDF objects out of 2073 (max. 8388607)
  1415 named destinations out of 1440 (max. 500000)
