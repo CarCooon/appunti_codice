@@ -1,0 +1,7 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {chapter}{\numberline {1}Array Stack}{3}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Array Queue}{5}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Alberi}{9}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Binary Search Tree (BST)}{19}{chapter.4}%
+\contentsline {chapter}{\numberline {5}AVL Tree}{29}{chapter.5}%
