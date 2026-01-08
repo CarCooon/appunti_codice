@@ -17,3 +17,5 @@
 \contentsline {chapter}{\numberline {15}Graph}{59}{chapter.15}%
 \contentsline {chapter}{\numberline {16}DFS}{65}{chapter.16}%
 \contentsline {chapter}{\numberline {17}BFS}{67}{chapter.17}%
+\contentsline {chapter}{\numberline {18}Transitive Closure}{69}{chapter.18}%
+\contentsline {chapter}{\numberline {19}Topological Sort}{71}{chapter.19}%
