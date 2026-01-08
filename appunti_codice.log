@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.1.7)  8 JAN 2026 12:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.1.7)  8 JAN 2026 12:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -893,6 +893,18 @@ LaTeX Warning: Label `cap:bst' multiply defined.
 
 LaTeX Warning: Label `cap:bst@cref' multiply defined.
 
+
+LaTeX Warning: Label `cap:bst' multiply defined.
+
+
+LaTeX Warning: Label `cap:bst@cref' multiply defined.
+
+
+LaTeX Warning: Label `lst:RedBlackTreeMap' multiply defined.
+
+
+LaTeX Warning: Label `lst:RedBlackTreeMap@cref' multiply defined.
+
 )
 \openout1 = `appunti_codice.aux'.
 
@@ -1042,7 +1054,7 @@ Package hyperref Info: Link coloring OFF on input line 134.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 20.74pt on input line 139.
-<immagini/logo_unisa.png, id=27, 351.3125pt x 351.3125pt>
+<immagini/logo_unisa.png, id=31, 351.3125pt x 351.3125pt>
 File: immagini/logo_unisa.png Graphic file (type png)
 <use immagini/logo_unisa.png>
 Package pdftex.def Info: immagini/logo_unisa.png  used on input line 142.
@@ -1322,6 +1334,20 @@ Capitolo 6.
 
 [33
 
+]
+
+[34
+
+] (capitoli/cap7_hash.tex
+Capitolo 7.
+
+
+[35
+
+])
+
+[36
+
 ] (appunti_codice.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -1332,23 +1358,23 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `appunti_codice.out' has not changed.
-(rerunfilecheck)             Checksum: 18D3E850EDF995DB938F62A10D41A18B;620.
+(rerunfilecheck)             Checksum: E0C08E1E63D6C09DEEA00C4D33BAF1B0;683.
 Package logreq Info: Writing requests to 'appunti_codice.run.xml'.
 \openout1 = `appunti_codice.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32107 strings out of 467875
- 551437 string characters out of 5415578
- 1599981 words of memory out of 5000000
- 59487 multiletter control sequences out of 15000+600000
+ 32186 strings out of 467875
+ 552774 string characters out of 5415578
+ 1599978 words of memory out of 5000000
+ 59508 multiletter control sequences out of 15000+600000
  678572 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,11n,131p,1273b,1821s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/txfonts/t1xbtt.pfb><C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/ferdy/AppData/Local/Programs/MiKTeX/LaTeX/fonts/type1/public/newtx/ztmr.pfb>
-Output written on appunti_codice.pdf (33 pages, 483604 bytes).
+Output written on appunti_codice.pdf (36 pages, 501405 bytes).
 PDF statistics:
- 1453 PDF objects out of 1728 (max. 8388607)
- 1074 named destinations out of 1200 (max. 500000)
- 28214 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1534 PDF objects out of 1728 (max. 8388607)
+ 1129 named destinations out of 1200 (max. 500000)
+ 28222 words of extra memory for PDF output out of 29859 (max. 10000000)
 

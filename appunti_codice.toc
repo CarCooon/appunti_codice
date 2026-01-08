@@ -6,3 +6,4 @@
 \contentsline {chapter}{\numberline {4}Binary Search Tree (BST)}{19}{chapter.4}%
 \contentsline {chapter}{\numberline {5}AVL Tree}{29}{chapter.5}%
 \contentsline {chapter}{\numberline {6}RB Tree}{31}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Hash}{35}{chapter.7}%
