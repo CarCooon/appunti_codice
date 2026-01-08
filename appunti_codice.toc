@@ -20,3 +20,4 @@
 \contentsline {chapter}{\numberline {18}Transitive Closure}{69}{chapter.18}%
 \contentsline {chapter}{\numberline {19}Topological Sort}{71}{chapter.19}%
 \contentsline {chapter}{\numberline {20}Shortest Path}{73}{chapter.20}%
+\contentsline {chapter}{\numberline {21}Minimum Spanning Tree}{75}{chapter.21}%
